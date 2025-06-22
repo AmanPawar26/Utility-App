@@ -17,7 +17,7 @@ router.get('/debug', (req, res) => {
   });
 });
 
-// ✅ INSERT TEST ROUTE
+// INSERT TEST ROUTE
 router.post('/insert-test', (req, res) => {
   db.run(
     `INSERT INTO Properties (
